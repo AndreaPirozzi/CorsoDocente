@@ -1,0 +1,10 @@
+pring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: andreap!
+    url: jdbc:mysql://212.131.189.19:30016/andreap
+    username: andreap
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
